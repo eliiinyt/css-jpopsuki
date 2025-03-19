@@ -120,10 +120,21 @@
             border-collapse: collapse;
             width: 100%;
         }
+        
 
         table td {
             padding: 12px 8px;
             line-height: 1.6em;
+        }
+
+        td:first-child {
+             border-top-left-radius: 8px;
+             border-bottom-left-radius: 8px;
+        }
+                
+        td:last-child {
+              border-top-right-radius: 8px;
+              border-bottom-right-radius: 8px;
         }
 
         table [class*=torrent] td, table [class^=colhead] td, table [class^=row] td {
@@ -150,7 +161,6 @@
             z-index: 10;
             min-width: var(--container-width);
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
         }
 
         #header a {
