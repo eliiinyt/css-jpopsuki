@@ -55,6 +55,20 @@
             padding-top: 96px;
         }
 
+        #logo {
+          left:0;
+          padding:6px 5px;
+          position:absolute;
+          top:24px
+        }
+        #logo a {
+          background:url(logo.png) no-repeat;
+          background-size:307px 60px;
+          display:block;
+          height:60px;
+          width:307px
+        }
+
         main {
             display: block;
         }
